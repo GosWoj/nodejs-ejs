@@ -47,7 +47,9 @@ input {
   border: none;
   background: hsl(0 0% 93%);
   border-radius: 0.25rem;
-  padding: 0.75rem 3rem;
+  padding: 0.5rem;
+  height: 2rem;
+  width: 35%;
   outline: none;
 }
 button {
@@ -57,10 +59,11 @@ button {
   background: rgb(235, 175, 198);
   border-radius: 2px;
   cursor: pointer;
+  width: 4rem;
 }
 button:hover,
 button:active {
   color: rgb(235, 175, 198);
   background-color: white;
-  border: 0.5rem grey;
+  box-shadow: 0.2rem 0.15rem #888888;
 }
